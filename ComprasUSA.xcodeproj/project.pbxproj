@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8788D0F1FF3A82D00746B77 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8788D0E1FF3A82D00746B77 /* SettingsViewController.swift */; };
+		C8788D111FF3A83500746B77 /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8788D101FF3A83500746B77 /* TaxesViewController.swift */; };
 		C896FA8D1FF2FD9F00F1E975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C896FA8C1FF2FD9F00F1E975 /* AppDelegate.swift */; };
-		C896FA8F1FF2FD9F00F1E975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C896FA8E1FF2FD9F00F1E975 /* ViewController.swift */; };
+		C896FA8F1FF2FD9F00F1E975 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C896FA8E1FF2FD9F00F1E975 /* ShoppingViewController.swift */; };
 		C896FA921FF2FD9F00F1E975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C896FA901FF2FD9F00F1E975 /* Main.storyboard */; };
 		C896FA951FF2FD9F00F1E975 /* ComprasUSA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C896FA931FF2FD9F00F1E975 /* ComprasUSA.xcdatamodeld */; };
 		C896FA971FF2FD9F00F1E975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C896FA961FF2FD9F00F1E975 /* Assets.xcassets */; };
 		C896FA9A1FF2FD9F00F1E975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C896FA981FF2FD9F00F1E975 /* LaunchScreen.storyboard */; };
+		C8B9E7041FF40392004BBAA8 /* TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9E7031FF40392004BBAA8 /* TaxesCalculator.swift */; };
+		C8B9E7061FF4060A004BBAA8 /* uiViewController+TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9E7051FF4060A004BBAA8 /* uiViewController+TaxesCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8788D0E1FF3A82D00746B77 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C8788D101FF3A83500746B77 /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
 		C896FA891FF2FD9F00F1E975 /* ComprasUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComprasUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C896FA8C1FF2FD9F00F1E975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C896FA8E1FF2FD9F00F1E975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C896FA8E1FF2FD9F00F1E975 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		C896FA911FF2FD9F00F1E975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C896FA941FF2FD9F00F1E975 /* ComprasUSA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComprasUSA.xcdatamodel; sourceTree = "<group>"; };
 		C896FA961FF2FD9F00F1E975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C896FA991FF2FD9F00F1E975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C896FA9B1FF2FD9F00F1E975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B9E7031FF40392004BBAA8 /* TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculator.swift; sourceTree = "<group>"; };
+		C8B9E7051FF4060A004BBAA8 /* uiViewController+TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "uiViewController+TaxesCalculator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				C896FA8C1FF2FD9F00F1E975 /* AppDelegate.swift */,
-				C896FA8E1FF2FD9F00F1E975 /* ViewController.swift */,
+				C896FA8E1FF2FD9F00F1E975 /* ShoppingViewController.swift */,
 				C896FA901FF2FD9F00F1E975 /* Main.storyboard */,
 				C896FA961FF2FD9F00F1E975 /* Assets.xcassets */,
 				C896FA981FF2FD9F00F1E975 /* LaunchScreen.storyboard */,
 				C896FA9B1FF2FD9F00F1E975 /* Info.plist */,
 				C896FA931FF2FD9F00F1E975 /* ComprasUSA.xcdatamodeld */,
+				C8788D0E1FF3A82D00746B77 /* SettingsViewController.swift */,
+				C8788D101FF3A83500746B77 /* TaxesViewController.swift */,
+				C8B9E7031FF40392004BBAA8 /* TaxesCalculator.swift */,
+				C8B9E7051FF4060A004BBAA8 /* uiViewController+TaxesCalculator.swift */,
 			);
 			path = ComprasUSA;
 			sourceTree = "<group>";
@@ -139,9 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C896FA8F1FF2FD9F00F1E975 /* ViewController.swift in Sources */,
+				C896FA8F1FF2FD9F00F1E975 /* ShoppingViewController.swift in Sources */,
 				C896FA951FF2FD9F00F1E975 /* ComprasUSA.xcdatamodeld in Sources */,
+				C8B9E7061FF4060A004BBAA8 /* uiViewController+TaxesCalculator.swift in Sources */,
+				C8788D111FF3A83500746B77 /* TaxesViewController.swift in Sources */,
+				C8B9E7041FF40392004BBAA8 /* TaxesCalculator.swift in Sources */,
 				C896FA8D1FF2FD9F00F1E975 /* AppDelegate.swift in Sources */,
+				C8788D0F1FF3A82D00746B77 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
